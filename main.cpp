@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-double my_pow(double x, unsigned int y) {
+double my_pow(double x, int y) {
     double c = x;
     for (int i = 1; i < y; i++)
         c *= x;
@@ -10,7 +10,7 @@ double my_pow(double x, unsigned int y) {
 int main() {
     setlocale(LC_ALL, "russian");
     double x;
-    unsigned int y;
+    int y;
     cout << "Введите число x: ";
     cin >> x;
     cout << "Введите степень y: ";
