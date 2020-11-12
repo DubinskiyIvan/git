@@ -1,11 +1,6 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-double my_pow(double x, unsigned int y) {
-    double c = x;
-    for (int i = 1; i < y; i++)
-        c *= x;
-    return c;
-}
 
 int main() {
     setlocale(LC_ALL, "russian");
@@ -16,7 +11,7 @@ int main() {
     cout << "Введите степень y: ";
     cin >> y;
     cout << endl;
-    cout << "Результат: " << my_pow(x, y) << endl;
+    cout << "Результат: " << pow(x, y) << endl;
     system("pause");
     return 0;
 }
