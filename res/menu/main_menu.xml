@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/open_history" />
+    <item
+        android:id="@+id/toast"
+        android:title="@string/show_toast"/>
+    <item
+        android:id="@+id/service"
+        android:title="@string/open_service_activity" />
+    <item
+        android:id="@+id/browser"
+        android:title="@string/open_browser_call_activity" />
+    <item
+        android:id="@+id/file_item"
+        android:title="@string/open_file" />
+    <item
+        android:id="@+id/db_item"
+        android:title="@string/open_db" />
+    <item
+        android:id="@+id/shared_item"
+        android:title="@string/open_shared" />
+</menu>

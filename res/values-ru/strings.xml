@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="enter_x">Введите Х</string>
+    <string name="enter_y">Введите Y</string>
+    <string name="result_line">Результат</string>
+    <string name="switch_fragment">Сменить фрагмент</string>
+    <string name="enter_word">Введите слово</string>
+    <string name="double_string">Повторить</string>
+    <string name="reverse_string">Перевернуть</string>
+    <string name="toast_me">Скрыть</string>
+    <string name="open_history">История</string>
+    <string name="show_toast">Покажи Text</string>
+    <string name="multiplication_function">Умножение</string>
+    <string name="subtraction_function">Вычитание</string>
+    <string name="summation_function">Сложение</string>
+    <string name="double_function">Повтор</string>
+    <string name="reverse_function">Переворот</string>
+    <string name="open_service_activity">Служба</string>
+    <string name="open_browser_call_activity" >Браузер</string>
+    <string name="stop_service">Остановить</string>
+    <string name="start_service">Запустить</string>
+    <string name="service_started">Запущена</string>
+    <string name="service_stopped">Остановлена</string>
+    <string name="subtract">Вычитаю %d</string>
+    <string name="open_browser">Открыть в браузере</string>
+    <string name="text_view">Текст которым вы поделились!</string>
+    <string name="treble_string">Повтор 3 раза</string>
+    <string name="treble_function">Повтор 3 раза</string>
+    <string name="show_file_content">Показать содержимое файла</string>
+    <string name="open_file">Открыть файл</string>
+    <string name="open_db">Открыть БД</string>
+    <string name="show_db">Показать БД</string>
+    <string name="clear_db">Очистить БД</string>
+    <string name="clear_screen">Очистить экран</string>
+    <string name="open_shared">Открыть настройки</string>
+</resources>

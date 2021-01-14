@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_x">Enter X</string>
+    <string name="enter_y">Enter Y</string>
+    <string name="result_line">Result</string>
+    <string name="switch_fragment">Switch Fragment</string>
+    <string name="enter_word">Enter word</string>
+    <string name="double_string">Double</string>
+    <string name="treble_string">Treble</string>
+    <string name="reverse_string">Reverse</string>
+    <string name="toast_me">Hide</string>
+    <string name="open_history">History</string>
+    <string name="show_toast">Show Text</string>
+    <string name="multiplication_function">Multiplication</string>
+    <string name="subtraction_function">Subtraction</string>
+    <string name="summation_function">Summation</string>
+    <string name="double_function">Doubling</string>
+    <string name="treble_function">Trebling</string>
+    <string name="reverse_function">Reverse</string>
+    <string name="open_service_activity">Service</string>
+    <string name="open_browser_call_activity">Browser</string>
+    <string name="start_service">Start</string>
+    <string name="stop_service">Stop</string>
+    <string name="service_started">Started</string>
+    <string name="service_stopped">Stopped</string>
+    <string name="subtract">Subtract %d</string>
+    <string name="open_browser">Open in browser</string>
+    <string name="google_link" translatable="false">https://www.</string>
+    <string name="text_view">The text you shared!</string>
+    <string name="show_file_content">Show content from file</string>
+    <string name="log_file" translatable="false">File.txt</string>
+    <string name="open_file">Open file</string>
+    <string name="open_db">Open DB</string>
+    <string name="show_db">Show DB</string>
+    <string name="clear_db">Clear DB</string>
+    <string name="clear_screen">Clear screen</string>
+    <string name="open_shared">Open Shared</string>
+</resources>
