@@ -35,4 +35,6 @@
     <string name="clear_db">Clear DB</string>
     <string name="clear_screen">Clear screen</string>
     <string name="open_shared">Open Shared</string>
+    <string name="graphic">Graphic</string>
+    <string name="button">Actions</string>
 </resources>

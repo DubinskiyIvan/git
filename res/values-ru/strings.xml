@@ -33,4 +33,6 @@
     <string name="clear_db">Очистить БД</string>
     <string name="clear_screen">Очистить экран</string>
     <string name="open_shared">Открыть настройки</string>
+    <string name="graphic">Графика</string>
+    <string name="button">Действия</string>
 </resources>

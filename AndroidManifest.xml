@@ -11,27 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".intentCatcher"
-            android:parentActivityName=".MainActivity" >
+        <activity android:name=".view.intentCatcher"
+            android:parentActivityName=".view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain"/>
             </intent-filter>
         </activity>
-        <activity android:name=".browser"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".serviceActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".historyActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".fileActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".dbActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".SharedPreferencesActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.graphicActivity"/>
+        <activity android:name=".view.browser"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.serviceActivity"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.historyActivity"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.fileActivity"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.dbActivity"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.SharedPreferencesActivity"
+            android:parentActivityName=".view.MainActivity"/>
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,7 +40,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".service"
+            android:name=".viewmodel.service"
             android:enabled="true"
             android:exported="true" />
     </application>

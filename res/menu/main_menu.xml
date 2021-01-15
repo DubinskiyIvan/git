@@ -14,12 +14,15 @@
         android:id="@+id/browser"
         android:title="@string/open_browser_call_activity" />
     <item
-        android:id="@+id/file_item"
+        android:id="@+id/file"
         android:title="@string/open_file" />
     <item
-        android:id="@+id/db_item"
+        android:id="@+id/db"
         android:title="@string/open_db" />
     <item
-        android:id="@+id/shared_item"
+        android:id="@+id/shared"
         android:title="@string/open_shared" />
+    <item
+        android:id="@+id/graphic"
+        android:title="@string/graphic" />
 </menu>
